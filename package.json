@@ -1,0 +1,19 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "Web app with a front-end and a back-end for a NASA project where we can deploy new missions, trying to find exoplanets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmnv/NASA-project.git"
+  },
+  "author": "Ian Nava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianmnv/NASA-project/issues"
+  },
+  "homepage": "https://github.com/ianmnv/NASA-project#readme"
+}
