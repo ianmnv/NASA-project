@@ -4,9 +4,9 @@ const launch = {
   flightNumber: 100,
   launchDate: new Date(),
   mission: "Kepler-b Exploration",
-  rocketType: "Explorer IS1",
-  destination: "Kepler-1652 b",
-  customer: ["ZTM", "NASA", "NOAA"],
+  rocket: "Explorer IS1",
+  target: "Kepler-1652 b",
+  customers: ["ZTM", "NASA", "NOAA"],
   upcoming: true,
   success: true,
 };
