@@ -32,7 +32,12 @@ function addNewLaunch(launch) {
   );
 }
 
+function existsLaunchWithId(launchId) {
+  return launches.has(launchId);
+}
+
 module.exports = {
   getAllLaunches,
   addNewLaunch,
+  existsLaunchWithId,
 };
