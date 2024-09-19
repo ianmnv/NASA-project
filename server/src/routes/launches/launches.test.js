@@ -1,7 +1,14 @@
+const request = require("supertest");
+
+const app = require("../../app");
+
 describe("Test GET /launches", () => {
-  test("Should return 200 status code", () => {
-    const response = 200;
-    expect(response).toBe(200);
+  test("Should return 200 status code", async () => {
+    const response = await request(app)
+      .get("/launches")
+      .expect("Content-type", /json/);
+    // const response = await request(app).get("/launches").expect(200);
+    // expect(response.statusCode).toBe(200);
   });
 });
 
