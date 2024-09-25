@@ -11,6 +11,7 @@
     "client": "cd client && npm start",
     "watch": "run-p server client",
     "deploy": "cd client && npm run build && cd ../server && npm start",
+    "deploy-cluster": "cd client && npm run build && cd ../server && npm run cluster",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
